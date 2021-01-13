@@ -11,4 +11,4 @@ CMD echo "The application will start in ${JHIPSTER_SLEEP}s..." && \
     java ${JAVA_OPTS} -Djava.security.egd=file:/dev/./urandom -jar /app.jar
 
 # add directly the jar
-ADD *.jar /app.jar
+ADD /target/*.jar /app.jar
